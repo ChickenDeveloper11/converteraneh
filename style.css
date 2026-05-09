@@ -14,7 +14,7 @@ body {
     padding: 2rem;
     border-radius: 15px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-    width: 450px;
+    width: 90%;
     margin-bottom: 30px;
     transition: all 0.3s ease;
     position: fixed;
