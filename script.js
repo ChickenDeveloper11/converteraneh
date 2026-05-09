@@ -94,6 +94,10 @@ function convert2() {
             hasilAkhir = angka / 0.009;
             pesan = `<strong>${angka}</strong> lapangan bola itu sama dengan <strong>${hasilAkhir.toFixed(1)}</strong> meter!`;
             break;
+        case "bangKeanu":
+            hasilAkhir = angka / 1.6;
+            pesan = `<strong>${angka}</strong> bang Keanu itu sama dengan <strong>${hasilAkhir.toFixed(1)}</strong> meter!`;
+            break;
         case "galonIsiUlang":
             hasilAkhir = angka / 0.052;
             pesan = `<strong>${angka}</strong> galon isi ulang itu sama dengan <strong>${hasilAkhir.toFixed(1)}</strong> kilogram!`;
