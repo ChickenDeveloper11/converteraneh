@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Converter Aneh</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="assets/logo.PNG" type="image/png">
+</head>
+
+<body>
+    <div id="v1" class="card">
+        <button onclick="gantiCard()" class="shuffle" id="shuffle">⇄</button>
+        <h2>Converter Aneh Buanget😂</h2>
+        <label>Masukkan Angka:</label>
+        <input type="number" id="inputNumber" placeholder="Masukkan angka di sini">
+
+        <label>Satuan Tujuan:</label>
+        <select id="satuanTujuan">
+            <optgroup label="Panjang (Meter)">
+                <option value="kucing">Kucing</option>
+                <option value="gelas">Gelas</option>
+                <option value="semangka">Semangka</option>
+                <option value="sawit">Pohon Sawit</option>
+                <option value="omprengMBG">Ompreng MBG</option>
+            </optgroup>
+            <optgroup label="Berat (Kilogram)">
+                <option value="Mosasaurus">Mosasaurus</option>
+                <option value="Mobil Presiden">Mobil Presiden</option>
+                <option value="pesawat A380">Pesawat A380</option>
+                <option value="Semut">Semut</option>
+            </optgroup>
+        </select>
+
+        <button onclick="convert()">Konversi</button>
+
+        <div id="result">Hasil Konversi...</div>
+
+        <p class="made-by">Dibuat dengan ❤️ oleh Tim Converter Aneh</p>
+    </div>
+
+    <div id="v2" class="card hidden">
+        <button onclick="gantiCard()" class="shuffle" id="shuffle">⇄</button>
+        <h2>Converter Aneh Buanget😂 (Kebalikannya)</h2>
+        <label>Masukkan Angka:</label>
+        <input type="number" id="inputNumber2" placeholder="Masukkan angka di sini">
+
+        <label>Satuan Tujuan:</label>
+        <select id="satuanTujuan2">
+            <optgroup label="Panjang (Meter)">
+                <option value="kucing">Kucing</option>
+                <option value="lapanganBola">Lapangan Bola</option>
+            </optgroup>
+            <optgroup label="Berat (Kilogram)">
+                <option value="galonIsiUlang">Galon Isi Ulang</option>
+            </optgroup>
+        </select>
+
+        <button onclick="convert2()">Konversi</button>
+
+        <div id="result2">Hasil Konversi...</div>
+
+        <p class="made-by">Dibuat dengan ❤️ oleh Tim Converter Aneh</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
